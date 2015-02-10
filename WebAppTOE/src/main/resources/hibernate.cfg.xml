@@ -3,7 +3,7 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">org.apache.derby.jdbc.EmbeddedDriver</property>
-        <property name="hibernate.connection.url">jdbc:derby:C:\Users\Aleks-Kulikov\project\data\db1;</property>
+        <property name="hibernate.connection.url">jdbc:derby:C:\project\db\db1;</property>
         <!-- <property name="hibernate.connection.url">jdbc:derby:C:\Users\Aleks-Kulikov\project\data\db1;</property> -->
         <!-- Dialect is required to let Hibernate know the Database Type, MySQL, Oracle etc
         Hibernate 4 automatically figure out Dialect from Database Connection Metadata -->

@@ -16,20 +16,8 @@ import org.apache.struts2.convention.annotation.Namespaces;
 /**
  * sources from http://www.journaldev.com/2146/struts-2-hello-world-example-with-annotations-and-without-struts-xml-file
  * sources from http://www.devmanuals.com/tutorials/java/struts/struts2/Struts2Hibernate.html
- * 
+ * sources from http://www.codejava.net/frameworks/struts/struts2-beginner-tutorial-with-annotations
  * @author Aleks-Kulikov
- */
-
-/**
- * An empty class for default Action implementation for:
- * 
- *  <action name="home">
- *      <result>/login.jsp</result>
- *  </action>
- * HomeAction class will be automatically mapped for home.action
- * Default page is login.jsp which will be served to client
- * @author pankaj
- *
  */
 
 public class Typeequipmentaction extends ActionSupport {
