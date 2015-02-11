@@ -6,6 +6,7 @@
 package tracingofficeequipment.dao.impl;
 
 import java.util.List;
+import java.util.ArrayList;
 import tracingofficeequipment.entity.Typeequipment;
 import tracingofficeequipment.dao.BaseDAO;
 import tracingofficeequipment.SessionService;
@@ -63,6 +64,9 @@ public class TypeequipmentDAOImpl extends SessionService
 
     @Override
     public List<Typeequipment> getAll() {
+//        List<Typeequipment> tes = new ArrayList();
+//        tes.add(new Typeequipment("vvv"));
+//        tes.add(new Typeequipment("aaa"));
         openCurrentSession();
         List<Typeequipment> tes = (List<Typeequipment>) getCurrentSession()
                 .createQuery("from Typeequipment").list();
